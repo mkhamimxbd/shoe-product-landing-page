@@ -14,9 +14,9 @@ body {
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; */
+  justify-content: space-between;
 }
 
 
@@ -129,11 +129,11 @@ body {
   width: 660px;
 }
 
-/* #footer {
+#footer {
   color: #adadad;
   font-size: 14px;
   text-align: center;
-} */
+}
 
 @media (max-width: 700px) {
   #header {
