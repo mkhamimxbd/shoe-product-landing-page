@@ -10,7 +10,7 @@ body {
   color: #f3f3f3;
   background-image: url("https://colibriwp.com/blog/wp-content/uploads/2020/06/boris-stefanik-wxJscL5ZzDA-unsplash.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -134,6 +134,10 @@ body {
 }
 
 @media (max-width: 700px) {
+
+  body {
+    background-size: cover;
+  }
 
   #header {
     padding: 0 15px;
