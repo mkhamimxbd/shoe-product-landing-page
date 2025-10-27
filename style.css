@@ -1,0 +1,183 @@
+#video,
+#form {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  /* background: #000000;
+  background: linear-gradient(232deg, rgba(0, 0, 0, 1) 4%, rgba(133, 133, 133, 1) 99%); */
+  color: #f3f3f3;
+  background-image: url("https://colibriwp.com/blog/wp-content/uploads/2020/06/boris-stefanik-wxJscL5ZzDA-unsplash.jpg");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+
+#header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: #000000;
+  background: linear-gradient(232deg, rgba(0, 0, 0, 1) 4%, rgba(133, 133, 133, 1) 99%);
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0 0 70px #000000b7;
+}
+
+#header-img {
+  width: 80px;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: #d1d1d1;
+  text-decoration: none;
+  margin: 0 0 0 40px;
+  font-size: 18px;
+  font-family: "Inter", "Roboto", Arial, Helvetica, sans-serif;
+}
+
+#main-container {
+  width: 100vw;
+  height: 100vh;
+
+}
+
+#main {
+  padding: 90px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+}
+
+#left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 700px;
+}
+
+#slogan {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  word-spacing: 1.8px;
+  padding: 40px 0;
+}
+
+#heading {
+  all: unset;
+  font-weight: 700;
+  font-size: 88px;
+  padding: 40px 0;
+}
+
+#first-half-heading {
+  color: yellow;
+}
+
+#desc {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.8;
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+#shop-btn {
+  margin: 40px 0 40px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  word-spacing: 2px;
+  padding: 14px 34px;
+  background-color: #d1d1d1;
+  color: #0f0f0f;
+  border: none;
+  transition: all 0.35s ease;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #1a1a1a;
+    color: #d1d1d1;
+  }
+}
+
+#img-container {
+  transform: rotate(-45deg);
+}
+
+#image {
+  width: 660px;
+}
+
+@media (max-width: 700px) {
+  #header {
+    padding: 0 15px;
+  }
+
+  #header-img {
+    width: 70px;
+  }
+
+  .nav-link {
+    margin: 0 0 0 20px;
+    font-size: 15px;
+  }
+
+  #main {
+    flex-direction: column;
+    align-items: start;
+    justify-self: unset;
+    margin: 0 15px;
+  }
+
+  #left-section {
+    width: unset;
+  }
+
+  #slogan {
+    padding: 10px 0;
+  }
+
+
+  #heading {
+    font-size: 54px;
+    line-height: 1.6;
+    padding: 10px 0;
+  }
+
+  #desc {
+    padding: 10px 0;
+  }
+
+  #shop-btn {
+    margin: 30px 0 0 30px;
+  }
+
+  #img-container {
+    position: absolute;
+    z-index: -100;
+    top: 240px;
+    left: 0;
+  }
+
+  #image {
+    width: 340px;
+  }
+}
